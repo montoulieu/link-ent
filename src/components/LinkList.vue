@@ -9,25 +9,13 @@ export default {
   data () {
     return {
       links: [
+        // {
+        //   title: 'Pieter Montoulieu', /* Button Label */
+        //   url: 'https://pi-mont.github.io/resume/' /* Button Url */
+        // },
         {
-          title: 'Dev Resume & Portfolio',
-          url: 'https://pi-mont.github.io/resume/'
-        },
-        {
-          title: 'Pixel Glitch Blog',
-          url: 'https://pixelglitch.net/'
-        },
-        {
-          title: 'Chiptune Metal',
-          url: 'http://music.drzilog.com/'
-        },
-        {
-          title: 'Psychedlic Rock',
-          url: 'https://shwarma.bandcamp.com/'
-        },
-        {
-          title: 'Misc. Music',
-          url: 'https://pixelglitch.bandcamp.com/'
+          title: 'Take Me By The Hand',
+          url: 'https://youtu.be/6E5m_XtCX3c'
         }
       ]
     }

@@ -13,17 +13,13 @@ export default {
   data () {
     return {
       socialAccounts: [
-        {
-          company: 'github',
-          url: 'https://github.com/pi-mont'
-        },
+        // {
+        //   company: 'twitter', /* Used for font-awesome icon */
+        //   url: 'https://twitter.com/' /* URL for social account */
+        // },
         {
           company: 'twitter',
-          url: 'https://twitter.com/p13t3rm'
-        },
-        {
-          company: 'instagram',
-          url: 'https://instagram.com/pi.mont'
+          url: 'https://twitter.com/'
         }
       ]
     }
