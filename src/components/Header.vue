@@ -10,7 +10,7 @@ import SocialLinks from './SocialLinks'
 
 export default {
   components: {
-    SocialLinks,
+    SocialLinks
   },
   data () {
     return {

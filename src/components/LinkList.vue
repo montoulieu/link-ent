@@ -28,7 +28,7 @@ export default {
         {
           title: 'Misc. Music',
           url: 'https://pixelglitch.bandcamp.com/'
-        },
+        }
       ]
     }
   }

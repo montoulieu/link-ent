@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import DonateButton from "./DonateButton"
+import DonateButton from './DonateButton'
 
 export default {
   components: {

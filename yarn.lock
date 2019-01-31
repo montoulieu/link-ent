@@ -7375,7 +7375,7 @@ webpack-dev-middleware@1.12.2:
     range-parser "^1.0.3"
     time-stamp "^2.0.0"
 
-webpack-dev-server@^2.9.1:
+webpack-dev-server@^2.11.3:
   version "2.11.3"
   resolved "https://wowinc.jfrog.io/wowinc/api/npm/npm/webpack-dev-server/-/webpack-dev-server-2.11.3.tgz#3fd48a402164a6569d94d3d17f131432631b4873"
   integrity sha1-P9SKQCFkpladlNPRfxMUMmMbSHM=
