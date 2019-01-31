@@ -14,8 +14,13 @@ body {
   text-align: center;
 }
 
-.profile-pic { height: 90px; }
-.container { max-width: 700px; }
+.profile-pic {
+  height: 90px;
+}
+
+.container {
+  max-width: 700px;
+}
 
 a:not(.btn) {
   color: $color-primary;
