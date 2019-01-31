@@ -8,12 +8,15 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "build-deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.11.0",
+    "push-dir": "^0.4.1",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.2"
   },
