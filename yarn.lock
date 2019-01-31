@@ -5810,6 +5810,13 @@ punycode@^2.1.0:
   resolved "https://wowinc.jfrog.io/wowinc/api/npm/npm/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
 
+push-dir@^0.4.1:
+  version "0.4.1"
+  resolved "https://wowinc.jfrog.io/wowinc/api/npm/npm/push-dir/-/push-dir-0.4.1.tgz#29481eacd9c2106bbb7941db6d37d122a071ecb4"
+  integrity sha1-KUgerNnCEGu7eUHbbTfRIqBx7LQ=
+  dependencies:
+    minimist "^1.2.0"
+
 q@^1.1.2:
   version "1.5.1"
   resolved "https://wowinc.jfrog.io/wowinc/api/npm/npm/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
