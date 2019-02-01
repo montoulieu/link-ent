@@ -9,7 +9,6 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "build-deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
