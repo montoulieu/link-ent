@@ -1,21 +1,19 @@
-# links
+# LinkEnt
 
-> A customizable and free link-tree clone
+> A customizable, open-source and self-hosted Linktree alternative
 
-## Build Setup
+## Build and Deploy
 
 ``` bash
 # install dependencies
-npm install
+yarn
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn dev
 
 # build for production with minification
-npm run build
+yarn build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# deploy to Github Pages branch
+yarn deploy
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
