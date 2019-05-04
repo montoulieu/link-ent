@@ -15,11 +15,11 @@ export default {
       socialAccounts: [
         {
           company: 'github',
-          url: 'https://github.com/pi-mont'
+          url: 'https://github.com/montoulieu'
         },
         {
           company: 'twitter',
-          url: 'https://twitter.com/p13t3rm'
+          url: 'https://twitter.com/_montoulieu'
         },
         {
           company: 'instagram',
