@@ -11,7 +11,7 @@ export default {
       links: [
         {
           title: 'Dev Resume & Portfolio',
-          url: 'https://montoulieu.github.io/resume/'
+          url: 'https://montoulieu.dev'
         },
         {
           title: 'Pixel Glitch Blog',
