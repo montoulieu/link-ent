@@ -23,7 +23,7 @@ export default {
         },
         {
           title: 'Psychedlic Rock',
-          url: 'https://shwarma.bandcamp.com/'
+          url: 'https://music.shwarma.band/'
         },
         {
           title: 'Misc. Music',
