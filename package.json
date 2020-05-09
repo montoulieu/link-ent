@@ -1,8 +1,8 @@
 {
   "name": "link-ent",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A customizable, open-source and self-hosted Linktree alternative",
-  "author": "Pieter Montoulieu <pi.mont@icloud.com>",
+  "author": "Pieter Montoulieu <pieter@montoulieu.dev>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -12,12 +12,12 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.11.0",
     "push-dir": "^0.4.1",
     "sass-loader": "^7.1.0",
-    "vue": "^2.5.2"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -32,7 +32,7 @@
     "babel-preset-stage-2": "^6.22.0",
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "^0.28.0",
+    "css-loader": "^3.5.3",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",
