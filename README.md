@@ -17,6 +17,14 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
+# customize header and footer
+src/components/Header.vue
+src/components/Footer.vue
+
+# add social and page links
+src/components/SocialLinks.vue
+src/LinkList.vue
+
 # build for production with minification
 npm run build
 
