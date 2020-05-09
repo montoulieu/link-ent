@@ -11,7 +11,7 @@ export default {
       links: [
         // {
         //   title: 'Pieter Montoulieu', /* Button Label */
-        //   url: 'https://pi-mont.github.io/resume/' /* Button Url */
+        //   url: 'https://montoulieu.dev' /* Button Url */
         // },
         {
           title: 'Take Me By The Hand',
