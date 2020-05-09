@@ -12,14 +12,14 @@ git clone git@github.com:pi-mont/link-ent.git my-project-name
 git checkout new-leaf
 
 # install dependencies
-yarn
+npm install
 
 # serve with hot reload at localhost:8080
-yarn dev
+npm run dev
 
 # build for production with minification
-yarn build
+npm run build
 
 # deploy to Github Pages branch
-yarn deploy
+npm run deploy
 ```
