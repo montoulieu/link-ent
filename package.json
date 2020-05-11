@@ -1,0 +1,32 @@
+{
+  "name": "link-ent",
+  "version": "2.0.0",
+  "description": "A lightweight Linktree alternative, built with React for Github Pages & Netlify.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montoulieu/link-ent.git"
+  },
+  "author": "Taylor Bryant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/montoulieu/link-ent/issues"
+  },
+  "homepage": "https://github.com/montoulieu/link-ent#readme",
+  "dependencies": {
+    "next": "9.3.6",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "9.7.6",
+    "tailwindcss": "1.4.5"
+  }
+}
