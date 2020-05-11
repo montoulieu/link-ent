@@ -1,22 +1,27 @@
 [
   {
     "title": "Portfolio and Resume",
-    "url": "https://montoulieu.dev"
+    "url": "https://montoulieu.dev",
+    "emoji": "🤝"
   },
   {
     "title": "shwarma - Experimental Psych Rock",
-    "url": "https://music.shwarma.band"
+    "url": "https://music.shwarma.band",
+    "emoji": "🎸"
   },
   {
     "title": "Dr. Zilog - Chiptune Prog Metal",
-    "url": "https://drzilog.bandcamp.com"
+    "url": "https://drzilog.bandcamp.com",
+    "emoji": "🤘"
   },
   {
     "title": "VGM and Emulation Blog",
-    "url": "https://pixelglitch.net"
+    "url": "https://pixelglitch.net",
+    "emoji": "👾"
   },
   {
-    "title": "Vaporwave/Ambient/VGM Projects",
-    "url": "https://pixelglitch.bandcamp.com"
+    "title": "Vaporwave and Ambient Music",
+    "url": "https://pixelglitch.bandcamp.com",
+    "emoji": "🔊"
   }
 ]
