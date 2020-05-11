@@ -1,10 +1,30 @@
-import Layout from "../components/Layout";
+import Header from "../components/Header";
+import LinkList from "../components/LinkList"
+import Footer from "../components/Footer";
+import Head from 'next/head'
 
 function IndexPage() {
   return (
-    <Layout>
+    <div className="flex flex-col min-h-screen">
+      {/* FontAwesome CDN style tag */}
+      <Head>
+        <title>@montoulieu | LinkEnt</title>
+        <meta
+          name="description"
+          content="🌲 A free Linktree alternative built with React and Tailwind."
+        />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"></link>
+      </Head>
 
-    </Layout>
+      {/* Profile Pic and Title Header*/}
+      <Header />
+
+      {/* List of Links generated from links.json */}
+      <LinkList />
+
+      {/* Social Links and Footer Disclaimer/Credits */}
+      <Footer />
+    </div>
   );
 }
 
