@@ -3,8 +3,8 @@ import links from '../json/links.json'
 
 function LinkList() {
   return (
-    <main className="container flex mx-auto px-3 sm:px-0">
-      <ul class="lg:w-2/4 mx-auto">
+    <main className="flex px-3 sm:px-0">
+      <ul class="w-full md:w-4/5 lg:w-3/6 mx-auto">
         {links.map(link => (
           <li className="mb-4" key={link.title}>
             <a

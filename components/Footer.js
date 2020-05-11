@@ -3,7 +3,7 @@ import FooterDisclaimer from "./FooterDisclaimer";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="px-3 sm:px-0">
       <div className="container text-center mx-auto">
         <div className="md:w-4/6 mx-auto">
           <SocialLinks />
