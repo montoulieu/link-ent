@@ -1,33 +1,9 @@
 # LinkEnt
 
-> A customizable, open-source and self-hosted Linktree alternative
+> A free Linktree alternative, built with React for Github Pages & Netlify.
 
-## Build and Deploy
+## TODO:
 
-``` bash
-# clone repo locally
-git clone git@github.com:pi-mont/link-ent.git my-project-name
+[  ] Setup linkent.config.js to host all theme, link, and config data
 
-# switch to new-leaf branch
-git checkout new-leaf
-
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# customize header and footer
-src/components/Header.vue
-src/components/Footer.vue
-
-# add social and page links
-src/components/SocialLinks.vue
-src/LinkList.vue
-
-# build for production with minification
-npm run build
-
-# deploy to Github Pages branch
-npm run deploy
-```
+[  ] Setup proper new-leaf branch as a clean slate for new users
