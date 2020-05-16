@@ -2,8 +2,18 @@ import Header from "../components/Header";
 import LinkList from "../components/LinkList"
 import Footer from "../components/Footer";
 import Head from 'next/head'
+import { initGA, logPageView } from '../utils/analytics'
+import { useEffect } from 'react';
 
 function IndexPage() {
+  useEffect(() => {
+    if (!window.GA_INITIALIZED) {
+      initGA()
+      window.GA_INITIALIZED = true
+    }
+    logPageView()
+  }, []);
+
   return (
     <div className="flex flex-col min-h-screen">
       {/* FontAwesome CDN style tag */}

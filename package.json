@@ -21,9 +21,10 @@
   },
   "homepage": "https://github.com/montoulieu/link-ent#readme",
   "dependencies": {
-    "next": "9.3.6",
+    "next": "9.4.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-ga": "^2.7.0"
   },
   "devDependencies": {
     "autoprefixer": "9.7.6",
