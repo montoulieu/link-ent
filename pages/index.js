@@ -18,7 +18,7 @@ function IndexPage() {
     <div className="flex flex-col min-h-screen">
       {/* FontAwesome CDN style tag */}
       <Head>
-        <title>@montoulieu | LinkEnt</title>
+        <title>Your Name | LinkEnt</title>
         <meta
           name="description"
           content="🌲 A free Linktree alternative built with React and Tailwind."
