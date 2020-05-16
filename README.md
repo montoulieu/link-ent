@@ -1,6 +1,6 @@
 # LinkEnt
 
-> A free Linktree alternative, built with React for Github Pages & Netlify.
+> A free Linktree alternative built with React and Tailwind.
 
 ## TODO:
 
