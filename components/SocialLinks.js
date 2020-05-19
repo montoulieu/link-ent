@@ -9,6 +9,8 @@ function SocialLinks() {
             className="text-green-400  hover:text-green-600"
             href={link.url}
             target="_blank"
+            rel="noopener"
+            alt={link.icon}
           >
             <i className={`fa fa-2x fa-${link.icon}`}></i>
           </a>
