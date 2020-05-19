@@ -12,6 +12,7 @@ function LinkList() {
               href={link.url}
               alt={link.title}
               target="_blank"
+              rel="noopener"
             >
               <span className="text-3xl absolute left-0 top-0 bottom-0 pl-3 flex items-center">{link.emoji}</span>
               <span>{link.title}</span>
