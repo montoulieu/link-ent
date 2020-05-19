@@ -1,7 +1,7 @@
 {
   "name": "link-ent",
-  "version": "2.1.0",
-  "description": "A lightweight Linktree alternative, built with React for Github Pages & Netlify.",
+  "version": "2.1.1",
+  "description": "A free Linktree alternative built with React and Tailwind.",
   "main": "index.js",
   "scripts": {
     "dev": "next",
