@@ -2,6 +2,10 @@
 
 > A free Linktree alternative built with React and Tailwind.
 
+![Image of LinkEnt frontend](https://github.com/montoulieu/link-ent/blob/master/public/LinkEntPreview.jpg?raw=true)
+
+
+
 ## Setup
 - `git clone -b new-leaf git@github.com:montoulieu/link-ent.git` clone LinkEnt using the "new-leaf" branch
 - `npm i` to install all npm dependencies
