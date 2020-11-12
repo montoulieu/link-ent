@@ -1,4 +1,3 @@
-import React from 'react'
 import links from '../json/links.json'
 
 function LinkList() {
