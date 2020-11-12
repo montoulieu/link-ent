@@ -1,4 +1,3 @@
-
 function Header() {
   return (
     <header className="container flex text-center mx-auto py-10">

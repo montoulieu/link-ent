@@ -1,6 +1,6 @@
 # LinkEnt
 
-> A free Linktree alternative built with React and Tailwind.
+> A free Linktree alternative built with Next.js and Tailwind.
 
 ![Image of LinkEnt frontend](https://github.com/montoulieu/link-ent/blob/master/public/LinkEntPreview.jpg?raw=true)
 
