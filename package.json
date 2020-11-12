@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "autoprefixer": "9.7.6",
-    "tailwindcss": "1.9.6"
+    "tailwindcss": "^1.9.6"
   }
 }
