@@ -1,9 +1,5 @@
 [
-  {
-    "title": "Foundation Profile",
-    "url": "https://foundation.app/montoulieu",
-    "emoji": "💎"
-  },
+
   {
     "title": "Portfolio and Resume",
     "url": "https://montoulieu.dev",
@@ -28,5 +24,10 @@
     "title": "Vaporwave and Ambient Music",
     "url": "https://montoulieu.bandcamp.com",
     "emoji": "🔊"
+  },
+  {
+    "title": "Foundation Profile",
+    "url": "https://foundation.app/montoulieu",
+    "emoji": "💎"
   }
 ]
