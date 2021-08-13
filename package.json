@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/montoulieu/link-ent#readme",
   "dependencies": {
-    "next": "^10.0.0",
+    "next": "^11.1.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-ga": "^3.2.1"
