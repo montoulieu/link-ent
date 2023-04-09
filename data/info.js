@@ -1,7 +1,6 @@
 const info = {
-  name: "Pieter Montoulieu",
-  title: `XR Developer, AI/ML Enthusiast, 
-and Full-stack Engineer.`,
+  name: "Your Name",
+  title: `Your Title`,
 };
 
 export default info;

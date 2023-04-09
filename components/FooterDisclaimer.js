@@ -12,7 +12,7 @@ function FooterDisclaimer() {
         <a
           href="https://github.com/montoulieu/link-ent"
           target="_blank"
-          className="text-green-400"
+          className="text-lime-400"
         >
           LinkEnt
         </a>
