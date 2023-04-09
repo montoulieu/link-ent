@@ -32,5 +32,5 @@ const TWListItemLink = tw.a`
   bg-lime-500 hover:bg-transparent 
   border-2 border-lime-500 rounded-3xl
   font-bold text-center text-gray-800 hover:text-lime-400
-  transition-all duration-200 
+  transition-colors duration-200 
 `;

@@ -4,9 +4,9 @@ function SocialLinks() {
   return (
     <ul className="flex gap-5 justify-center">
       {socialLinks.map((link) => (
-        <li className="" key={link.icon}>
+        <li className="h-8 flex items-center" key={link.icon}>
           <a
-            className="text-lime-400  hover:text-lime-600 transition-colors duration-200"
+            className="text-lime-400 hover:text-lime-600 transition-colors duration-200"
             href={link.url}
             target="_blank"
             rel="noopener"
