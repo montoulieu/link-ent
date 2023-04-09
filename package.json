@@ -1,7 +1,7 @@
 {
   "name": "link-ent",
-  "version": "2.2.0",
-  "description": "A free Linktree alternative built with React and Tailwind.",
+  "version": "3.0.0",
+  "description": "A free Linktree alternative built with Next and Tailwind.",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -21,13 +21,14 @@
   },
   "homepage": "https://github.com/montoulieu/link-ent#readme",
   "dependencies": {
-    "next": "^10.0.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "react-ga": "^3.2.1"
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
+    "tailwind-styled-components": "^2.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "9.7.6",
-    "tailwindcss": "^1.9.6"
+    "autoprefixer": "10.4.14",
+    "tailwindcss": "^3.3.1"
   }
 }

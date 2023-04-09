@@ -7,7 +7,16 @@ function FooterDisclaimer() {
         Thanks,
         Pieter Montoulieu
        */}
-      <p>Built with <a href="https://github.com/montoulieu/link-ent" target="_blank" className="text-green-400">LinkEnt</a></p>
+      <p>
+        Built with{" "}
+        <a
+          href="https://github.com/montoulieu/link-ent"
+          target="_blank"
+          className="text-green-400"
+        >
+          LinkEnt
+        </a>
+      </p>
     </div>
   );
 }

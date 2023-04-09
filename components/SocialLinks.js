@@ -1,18 +1,18 @@
-import socialLinks from '../json/social-links.json'
+import { socialLinks } from "@/data";
 
 function SocialLinks() {
   return (
-    <ul className="py-6">
-      {socialLinks.map(link => (
-        <li className="mr-3 inline" key={link.icon}>
+    <ul className="flex gap-5 justify-center">
+      {socialLinks.map((link) => (
+        <li className="" key={link.icon}>
           <a
-            className="text-green-400  hover:text-green-600"
+            className="text-lime-400  hover:text-lime-600 transition-colors duration-200"
             href={link.url}
             target="_blank"
             rel="noopener"
             alt={link.icon}
           >
-            <i className={`fa fa-2x fa-${link.icon}`}></i>
+            <i className={`bi-${link.icon} text-3xl`}></i>
           </a>
         </li>
       ))}
