@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useEffect } from "react";
 import { initGA, logPageView } from "@/utils/analytics";
-import { info } from "@/json/info";
+import { info } from "@/data";
 
 import Header from "@/components/Header";
 import LinkList from "@/components/LinkList";
@@ -15,6 +15,8 @@ function IndexPage() {
     }
     logPageView();
   }, []);
+
+  console.log(info);
 
   return (
     <div className="flex flex-col min-h-screen py-10 px-6 sm:px-0">

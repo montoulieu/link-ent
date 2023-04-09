@@ -1,4 +1,4 @@
-export const socialLinks = [
+const socialLinks = [
   {
     icon: "github",
     url: "https://github.com/montoulieu",
@@ -20,3 +20,5 @@ export const socialLinks = [
     url: "https://www.linkedin.com/in/pieter-montoulieu",
   },
 ];
+
+export default socialLinks;

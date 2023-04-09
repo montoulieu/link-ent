@@ -1,4 +1,4 @@
-import { socialLinks } from "../json/social-links";
+import { socialLinks } from "@/data";
 
 function SocialLinks() {
   return (

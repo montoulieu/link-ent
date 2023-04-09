@@ -1,4 +1,4 @@
-import { links } from "@/json/links";
+import { links } from "@/data";
 import tw from "tailwind-styled-components";
 
 function LinkList() {

@@ -1,4 +1,4 @@
-export const links = [
+const links = [
   {
     title: "Portfolio and Resume",
     url: "https://montoulieu.dev",
@@ -30,3 +30,5 @@ export const links = [
     emoji: "🔊",
   },
 ];
+
+export default links;

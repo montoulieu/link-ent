@@ -1,4 +1,4 @@
-import { info } from "@/json/info";
+import { info } from "@/data";
 import SocialLinks from "@/components/SocialLinks";
 
 const Header = () => {
