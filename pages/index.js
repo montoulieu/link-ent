@@ -1,29 +1,32 @@
-import Header from "../components/Header";
-import LinkList from "../components/LinkList"
-import Footer from "../components/Footer";
-import Head from 'next/head'
-import { initGA, logPageView } from '../utils/analytics'
-import { useEffect } from 'react';
+import Head from "next/head";
+import { useEffect } from "react";
+import { initGA, logPageView } from "@/utils/analytics";
+import { info } from "@/data";
+
+import Header from "@/components/Header";
+import LinkList from "@/components/LinkList";
+import Footer from "@/components/Footer";
 
 function IndexPage() {
   useEffect(() => {
     if (!window.GA_INITIALIZED) {
-      initGA()
-      window.GA_INITIALIZED = true
+      initGA();
+      window.GA_INITIALIZED = true;
     }
-    logPageView()
+    logPageView();
   }, []);
 
+  console.log(info);
+
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen py-10 px-6 sm:px-0">
       {/* FontAwesome CDN style tag */}
       <Head>
-        <title>Pieter Montoulieu | LinkEnt</title>
+        <title>{info.name} | LinkEnt</title>
         <meta
           name="description"
           content="🌲 A free Linktree alternative built with React and Tailwind."
         />
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous"></link>
       </Head>
 
       {/* Profile Pic and Title Header*/}
